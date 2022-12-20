@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Combined Dots Map</title>
+    <link rel="stylesheet" href="../style/dotsLayout.css" />
+</head>
+
+<body>
+    <!-- Main Header -->
+    <div id="mainBanner">
+        <span id="title">Lagos Tourism</span>
+        <span id="subTitle">Industry Information</span>
+    </div>
+
+    <div id="backButtonContainer">
+        <button id="backButton" onclick="location.href='../index.html'">
+				Back to Home Page
+			</button>
+    </div>
+
+    <div class="dots" id="combined-dots">
+        <tableau-viz id="tableau-viz" src="https://prod-apnortheast-a.online.tableau.com/t/jingxiang/views/combination/Sheet1?:origin=card_share_link&:embed=n" width="80%" height="889" hide-tabs toolbar="hidden"></tableau-viz>
+    </div>
+</body>
+
+<script type="module" src="https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+
+</html>

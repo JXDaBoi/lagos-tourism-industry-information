@@ -1,0 +1,80 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lagos Tourism Industry Information</title>
+    <link rel="stylesheet" href="style/md.css" />
+</head>
+
+<body>
+    <!-- Main Header -->
+    <div id="mainBanner">
+        <span id="title">Lagos Tourism</span>
+        <span id="subTitle">Industry Information</span>
+    </div>
+
+    <!-- Category Cards -->
+    <div id="categories">
+        <!-- Category Cards Headers-->
+        <div class="categoryHeader">Accommodation</div>
+        <div class="categoryHeader">Restaurant</div>
+        <div class="categoryHeader">Shopping</div>
+
+        <!-- Container One -->
+        <div class="categoryCard" onclick="location.href = 'pages/accommodationHeat.html'">
+            <div class="cardTitle topMid" id="one">Accommodation Heat Map</div>
+            <p class="disappearOpacity" id="oneCon">
+                Navigate to the Heat Map of Accommodation
+            </p>
+        </div>
+
+        <!-- Container Two -->
+        <div class="categoryCard" onclick="location.href = 'pages/restaurantHeat.html'">
+            <div class="cardTitle topMid" id="two">Restaurant Heat Map</div>
+            <p class="disappearOpacity" id="twoCon">
+                Navigate to the Heat Map of Restaurant
+            </p>
+        </div>
+
+        <!-- Container Three -->
+        <div class="categoryCard" onclick="location.href = 'pages/shoppingHeat.html'">
+            <div class="cardTitle topMid" id="three">Shopping Heat Map</div>
+            <p class="disappearOpacity" id="threeCon">
+                Navigate to the Heat Map of Shopping
+            </p>
+        </div>
+
+        <!-- Container Four -->
+        <div class="categoryCard" onclick="location.href = 'pages/accommodationDots.html'">
+            <div class="cardTitle topMid" id="four">Accommodation Dots Map</div>
+            <p class="disappearOpacity" id="fourCon">
+                Navigate to the Dots Map of Accommodation
+            </p>
+        </div>
+
+        <!-- Container Five -->
+        <div class="categoryCard" onclick="location.href = 'pages/restaurantDots.html'">
+            <div class="cardTitle topMid" id="five">Restaurant Dots Map</div>
+            <p class="disappearOpacity" id="fiveCon">
+                Navigate to the Dots Map of Restaurant
+            </p>
+        </div>
+
+        <!-- Container Six -->
+        <div class="categoryCard" onclick="location.href = 'pages/shoppingDots.html'">
+            <div class="cardTitle topMid" id="six">Shopping Dots Map</div>
+            <p class="disappearOpacity" id="sixCon">
+                Navigate to the Dots Map of Shopping
+            </p>
+        </div>
+    </div>
+
+    <div id="Combined Map">
+        <button id="combinedMap" onclick="location.href='pages/combinedMap.html'">
+				Combined Map
+			</button>
+    </div>
+</body>
+
+</html>
